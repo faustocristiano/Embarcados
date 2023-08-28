@@ -1,6 +1,8 @@
 // Valores constantes
 float R0 = 10000.0; // Resistência nominal do termistor em ohms
 float Vin = 5.0;    // Tensão de alimentação em volts
+float fator = 0.7194949494949725;
+
 
 // Coeficientes para o cálculo da temperatura
 float coeficiente[3] = {-1.1011e-03, 5.9740e-04, -1.3336e-06};
@@ -22,7 +24,7 @@ float tensao(float coeficiente) {
 
 // Função para calcular a temperatura usando a equação de Steinhart-Hart
 float temperatura(float R) {
-  return 1.0 / ((coeficiente[0] + coeficiente[1] * log(R) + coeficiente[2] * pow(log(R), 3))) - 273.0;
+  return 1.0 / ((coeficiente[0] + coeficiente[1] * log(R) + coeficiente[2] * pow(log(R), 3))) - 273.0 + fator;
 }
 
 void loop() {
