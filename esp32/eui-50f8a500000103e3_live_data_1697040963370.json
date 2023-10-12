@@ -1,0 +1,479 @@
+[
+  {
+    "time": "2023-10-11T16:15:57.751Z",
+    "name": "synthetic.status.resumed",
+    "isError": false,
+    "isSynthetic": true,
+    "unique_id": "synthetic.1697040957751"
+  },
+  {
+    "time": "2023-10-11T16:15:56.464Z",
+    "name": "synthetic.status.paused",
+    "isError": false,
+    "isSynthetic": true,
+    "unique_id": "synthetic.1697040956464"
+  },
+  {
+    "name": "ns.down.data.schedule.attempt",
+    "time": "2023-10-11T16:11:20.390533419Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-50f8a500000103e3",
+          "application_ids": {
+            "application_id": "iot-csf-ifsc"
+          },
+          "dev_eui": "50F8A500000103E3",
+          "join_eui": "0000000000000001",
+          "dev_addr": "260C334D"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.DownlinkMessage",
+      "raw_payload": "YE0zDCaHAAAJHQMRAP8BglZ2LA==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_DOWN"
+        },
+        "mic": "glZ2LA==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260C334D",
+            "f_ctrl": {
+              "adr": true
+            },
+            "f_opts": "CR0DEQD/AQ=="
+          }
+        }
+      },
+      "request": {
+        "downlink_paths": [
+          {
+            "uplink_token": "CiUKIwoXaWZzYy1jYWl4YS1hZ3VhLW91dGRvb3ISCAAA+AMyAacnEOTTxaAGGgwIp5KbqQYQ3sX00QMgoMWWoO65eg=="
+          }
+        ],
+        "rx1_delay": 5,
+        "rx1_data_rate": {
+          "lora": {
+            "bandwidth": 500000,
+            "spreading_factor": 12,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx1_frequency": "926300000",
+        "rx2_data_rate": {
+          "lora": {
+            "bandwidth": 500000,
+            "spreading_factor": 12,
+            "coding_rate": "4/5"
+          }
+        },
+        "rx2_frequency": "923300000",
+        "priority": "HIGHEST",
+        "frequency_plan_id": "AU_915_928_FSB_2"
+      },
+      "correlation_ids": [
+        "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+        "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+        "gs:uplink:01HCFR3H19MVR6A2VHXZVQ9W22",
+        "ns:downlink:01HCFR3HE62DHZB5P6GP9ATWR8",
+        "ns:transmission:01HCFR3HE6184HJE6QZWX94GEC",
+        "ns:uplink:01HCFR3H1AQF9V1E2YA1BPT3TT",
+        "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFR3H1ARC13ZP12MB7XZC0X"
+      ]
+    },
+    "correlation_ids": [
+      "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+      "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+      "gs:uplink:01HCFR3H19MVR6A2VHXZVQ9W22",
+      "ns:downlink:01HCFR3HE62DHZB5P6GP9ATWR8",
+      "ns:transmission:01HCFR3HE6184HJE6QZWX94GEC",
+      "ns:uplink:01HCFR3H1AQF9V1E2YA1BPT3TT",
+      "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFR3H1ARC13ZP12MB7XZC0X"
+    ],
+    "origin": "ip-10-101-14-216.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HCFR3HE6DZ975WRDEBXAP68G"
+  },
+  {
+    "name": "as.up.data.forward",
+    "time": "2023-10-11T16:11:20.187677623Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-50f8a500000103e3",
+          "application_ids": {
+            "application_id": "iot-csf-ifsc"
+          },
+          "dev_eui": "50F8A500000103E3",
+          "join_eui": "0000000000000001",
+          "dev_addr": "260C334D"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-50f8a500000103e3",
+        "application_ids": {
+          "application_id": "iot-csf-ifsc"
+        },
+        "dev_eui": "50F8A500000103E3",
+        "join_eui": "0000000000000001",
+        "dev_addr": "260C334D"
+      },
+      "correlation_ids": [
+        "as:up:01HCFR3H7RY0Y2QD3B6QNTJP60",
+        "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+        "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+        "gs:uplink:01HCFR3H19MVR6A2VHXZVQ9W22",
+        "ns:uplink:01HCFR3H1AQF9V1E2YA1BPT3TT",
+        "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFR3H1ARC13ZP12MB7XZC0X",
+        "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01HCFR3H7QKQ3A71MCVAV9BDM0"
+      ],
+      "received_at": "2023-10-11T16:11:20.183937509Z",
+      "uplink_message": {
+        "session_key_id": "AYsff8N8CjirFSDOJC8yJg==",
+        "f_port": 1,
+        "frm_payload": "eyJMdW1pbm9zaWRhZGUiOjI3LCJUZW1wZXJhdHVyYSI6MjUuNSwiVW1pZGFkZSI6Nzl9",
+        "decoded_payload": {
+          "text": "{\"Luminosidade\":27,\"Temperatura\":25.5,\"Umidade\":79}"
+        },
+        "rx_metadata": [
+          {
+            "gateway_ids": {
+              "gateway_id": "ifsc-caixa-agua-outdoor",
+              "eui": "0000F8033201A727"
+            },
+            "timestamp": 1678862820,
+            "rssi": -103,
+            "channel_rssi": -103,
+            "snr": 2,
+            "location": {
+              "latitude": -27.608081294592182,
+              "longitude": -48.633736499977516,
+              "source": "SOURCE_REGISTRY"
+            },
+            "uplink_token": "CiUKIwoXaWZzYy1jYWl4YS1hZ3VhLW91dGRvb3ISCAAA+AMyAacnEOTTxaAGGgwIp5KbqQYQ3sX00QMgoMWWoO65eg==",
+            "channel_index": 7,
+            "received_at": "2023-10-11T16:11:19.883406623Z"
+          }
+        ],
+        "settings": {
+          "data_rate": {
+            "lora": {
+              "bandwidth": 125000,
+              "spreading_factor": 12,
+              "coding_rate": "4/5"
+            }
+          },
+          "frequency": "917800000",
+          "timestamp": 1678862820
+        },
+        "received_at": "2023-10-11T16:11:19.978729957Z",
+        "consumed_airtime": "2.793472s",
+        "network_ids": {
+          "net_id": "000013",
+          "tenant_id": "ttn",
+          "cluster_id": "nam1",
+          "cluster_address": "nam1.cloud.thethings.network"
+        }
+      }
+    },
+    "correlation_ids": [
+      "as:up:01HCFR3H7RY0Y2QD3B6QNTJP60",
+      "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+      "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+      "gs:uplink:01HCFR3H19MVR6A2VHXZVQ9W22",
+      "ns:uplink:01HCFR3H1AQF9V1E2YA1BPT3TT",
+      "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFR3H1ARC13ZP12MB7XZC0X",
+      "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01HCFR3H7QKQ3A71MCVAV9BDM0"
+    ],
+    "origin": "ip-10-101-5-182.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HCFR3H7VMJRWG0CWJJQMVJ3E"
+  },
+  {
+    "name": "ns.up.data.process",
+    "time": "2023-10-11T16:11:20.183019138Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-50f8a500000103e3",
+          "application_ids": {
+            "application_id": "iot-csf-ifsc"
+          },
+          "dev_eui": "50F8A500000103E3",
+          "join_eui": "0000000000000001",
+          "dev_addr": "260C334D"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "QE0zDCaAAAAB/wj4tBr+8hAlxRNbsZeuyE2zzZVOORWjf16CwyznfR7Xwn07XMUfyUUQNqmaQX5kd8NoXUbnPQ==",
+      "payload": {
+        "m_hdr": {
+          "m_type": "UNCONFIRMED_UP"
+        },
+        "mic": "XUbnPQ==",
+        "mac_payload": {
+          "f_hdr": {
+            "dev_addr": "260C334D",
+            "f_ctrl": {
+              "adr": true
+            }
+          },
+          "f_port": 1,
+          "frm_payload": "/wj4tBr+8hAlxRNbsZeuyE2zzZVOORWjf16CwyznfR7Xwn07XMUfyUUQNqmaQX5kd8No"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 12,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "917800000",
+        "timestamp": 1678862820
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "ifsc-caixa-agua-outdoor",
+            "eui": "0000F8033201A727"
+          },
+          "timestamp": 1678862820,
+          "rssi": -103,
+          "channel_rssi": -103,
+          "snr": 2,
+          "location": {
+            "latitude": -27.608081294592182,
+            "longitude": -48.633736499977516,
+            "source": "SOURCE_REGISTRY"
+          },
+          "uplink_token": "CiUKIwoXaWZzYy1jYWl4YS1hZ3VhLW91dGRvb3ISCAAA+AMyAacnEOTTxaAGGgwIp5KbqQYQ3sX00QMgoMWWoO65eg==",
+          "channel_index": 7,
+          "received_at": "2023-10-11T16:11:19.883406623Z"
+        }
+      ],
+      "received_at": "2023-10-11T16:11:19.978729957Z",
+      "correlation_ids": [
+        "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+        "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+        "gs:uplink:01HCFR3H19MVR6A2VHXZVQ9W22",
+        "ns:uplink:01HCFR3H1AQF9V1E2YA1BPT3TT",
+        "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFR3H1ARC13ZP12MB7XZC0X"
+      ],
+      "device_channel_index": 13,
+      "consumed_airtime": "2.793472s"
+    },
+    "correlation_ids": [
+      "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+      "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+      "gs:uplink:01HCFR3H19MVR6A2VHXZVQ9W22",
+      "ns:uplink:01HCFR3H1AQF9V1E2YA1BPT3TT",
+      "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFR3H1ARC13ZP12MB7XZC0X"
+    ],
+    "origin": "ip-10-101-7-34.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HCFR3H7QGRWBT9ZNQKHMG9RX"
+  },
+  {
+    "name": "as.up.join.forward",
+    "time": "2023-10-11T16:09:10.542879499Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-50f8a500000103e3",
+          "application_ids": {
+            "application_id": "iot-csf-ifsc"
+          },
+          "dev_eui": "50F8A500000103E3",
+          "join_eui": "0000000000000001",
+          "dev_addr": "260C334D"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.ApplicationUp",
+      "end_device_ids": {
+        "device_id": "eui-50f8a500000103e3",
+        "application_ids": {
+          "application_id": "iot-csf-ifsc"
+        },
+        "dev_eui": "50F8A500000103E3",
+        "join_eui": "0000000000000001",
+        "dev_addr": "260C334D"
+      },
+      "correlation_ids": [
+        "as:up:01HCFQZJM86325T6QRD3E7MP0D",
+        "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+        "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+        "gs:uplink:01HCFQZGVKVMVGG01RT7JP84H1",
+        "ns:uplink:01HCFQZGVN57XNY7DNHE48JB1Z",
+        "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFQZGVMRWT41CCK1P8XVFT7",
+        "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01HCFQZJM7TJ7N52J44J25APMP"
+      ],
+      "received_at": "2023-10-11T16:09:10.535927165Z",
+      "join_accept": {
+        "session_key_id": "AYsff8N8CjirFSDOJC8yJg==",
+        "received_at": "2023-10-11T16:09:08.725258798Z"
+      }
+    },
+    "correlation_ids": [
+      "as:up:01HCFQZJM86325T6QRD3E7MP0D",
+      "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+      "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+      "gs:uplink:01HCFQZGVKVMVGG01RT7JP84H1",
+      "ns:uplink:01HCFQZGVN57XNY7DNHE48JB1Z",
+      "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFQZGVMRWT41CCK1P8XVFT7",
+      "rpc:/ttn.lorawan.v3.NsAs/HandleUplink:01HCFQZJM7TJ7N52J44J25APMP"
+    ],
+    "origin": "ip-10-101-15-120.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HCFQZJMEQYHV3YAENZ03MV3W"
+  },
+  {
+    "name": "ns.up.join.process",
+    "time": "2023-10-11T16:09:08.929309581Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-50f8a500000103e3",
+          "application_ids": {
+            "application_id": "iot-csf-ifsc"
+          },
+          "dev_eui": "50F8A500000103E3",
+          "join_eui": "0000000000000001",
+          "dev_addr": "260C6E81"
+        }
+      }
+    ],
+    "data": {
+      "@type": "type.googleapis.com/ttn.lorawan.v3.UplinkMessage",
+      "raw_payload": "AAEAAAAAAAAA4wMBAACl+FBg45pc4vc=",
+      "payload": {
+        "m_hdr": {},
+        "mic": "mlzi9w==",
+        "join_request_payload": {
+          "join_eui": "0000000000000001",
+          "dev_eui": "50F8A500000103E3",
+          "dev_nonce": "E360"
+        }
+      },
+      "settings": {
+        "data_rate": {
+          "lora": {
+            "bandwidth": 125000,
+            "spreading_factor": 12,
+            "coding_rate": "4/5"
+          }
+        },
+        "frequency": "917400000",
+        "timestamp": 1547614036
+      },
+      "rx_metadata": [
+        {
+          "gateway_ids": {
+            "gateway_id": "ifsc-caixa-agua-outdoor",
+            "eui": "0000F8033201A727"
+          },
+          "timestamp": 1547614036,
+          "rssi": -103,
+          "channel_rssi": -103,
+          "snr": 6.5,
+          "location": {
+            "latitude": -27.608081294592182,
+            "longitude": -48.633736499977516,
+            "source": "SOURCE_REGISTRY"
+          },
+          "uplink_token": "CiUKIwoXaWZzYy1jYWl4YS1hZ3VhLW91dGRvb3ISCAAA+AMyAacnENTu+uEFGgwIpJGbqQYQ7s782AIgoMDwp4W2eg==",
+          "channel_index": 5,
+          "received_at": "2023-10-11T16:09:08.629791398Z"
+        }
+      ],
+      "received_at": "2023-10-11T16:09:08.725258798Z",
+      "correlation_ids": [
+        "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+        "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+        "gs:uplink:01HCFQZGVKVMVGG01RT7JP84H1",
+        "ns:uplink:01HCFQZGVN57XNY7DNHE48JB1Z",
+        "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFQZGVMRWT41CCK1P8XVFT7"
+      ],
+      "device_channel_index": 11,
+      "consumed_airtime": "1.482752s"
+    },
+    "correlation_ids": [
+      "gs:conn:01HBZPGEAY36EPKN08CDRVHC7G",
+      "gs:up:host:01HBZPGEF4SJENFE94Z5WW5TH1",
+      "gs:uplink:01HCFQZGVKVMVGG01RT7JP84H1",
+      "ns:uplink:01HCFQZGVN57XNY7DNHE48JB1Z",
+      "rpc:/ttn.lorawan.v3.GsNs/HandleUplink:01HCFQZGVMRWT41CCK1P8XVFT7"
+    ],
+    "origin": "ip-10-101-7-34.us-west-1.compute.internal",
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_TRAFFIC_READ"
+      ]
+    },
+    "unique_id": "01HCFQZH21XY9ANQGCFBZ8MAA1"
+  },
+  {
+    "name": "end_device.update",
+    "time": "2023-10-10T18:46:30.935328879Z",
+    "identifiers": [
+      {
+        "device_ids": {
+          "device_id": "eui-50f8a500000103e3",
+          "application_ids": {
+            "application_id": "iot-csf-ifsc"
+          }
+        }
+      }
+    ],
+    "context": {
+      "tenant-id": "CgN0dG4="
+    },
+    "visibility": {
+      "rights": [
+        "RIGHT_APPLICATION_DEVICES_READ"
+      ]
+    },
+    "unique_id": "01HCDEJYRQYFHH5VVMBBTXV0G6"
+  }
+]
